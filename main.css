@@ -6,7 +6,7 @@ html, body {
 .header {
 	height: 60vh;
 	background-size: cover;
-	background: url("forest4.jpg") no-repeat fixed;
+	background: url("forest4_optimized.jpg") no-repeat fixed;
 }
 .innerhead {
 	height: 60vh;
@@ -51,7 +51,7 @@ html, body {
 	justify-content: center;
 	color: white;
 	align-items: center;
-	background-image: url("forest.png");
+	background-image: url("forest_optimized.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
