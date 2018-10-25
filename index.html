@@ -2,8 +2,11 @@
 <html>
 <head>
 	<title>Landing page</title>
-	<meta name="viewport", content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="animate.css">
+	<link rel="icon" href="MIcon.png">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 	<meta charset="UTF-8"/>
 </head>
 <body>
@@ -11,21 +14,36 @@
 	<div class="header">
 		<div class="innerhead">
 			<div class="wrapper">
-				<div id="fp">Explore the</div>	
-				<b class="hh">DEEP FOREST</b></br>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit<br>
+				<div class="wow fadeInLeft" id="fp">Explore the</div>
+				<div class="wow fadeInLeft" data-wow-delay=".3s"><b class="hh">DEEP FOREST</b></div>
+				<p class="wow fadeInLeft" data-wow-delay=".6s">Lorem ipsum dolor sit amet, consectetur adipiscing elit<br>
 				sed do eiusmod tempor incididunt</p>	
 			</div>
 		</div>
 	</div>
 		<div class="menu">
-			<label for="toggle" class="hamburger">&#9776</label>
-			<input type="checkbox" id="toggle"/>
+			<!--<label for="toggle" class="hamburger">&#9776</label>-->
+			<!--<input type="checkbox" id="toggle"/>-->
+			<!--<div class="hambBlock">-->
+				<!--<div class="hamburger one"></div>-->
+                <!--<div class="hamburger two"></div>-->
+                <!--<div class="hamburger three"></div>-->
+			<!--</div>-->
+            <div class="containerForHumburger">
+			    <div class="humburgerBlock wow fadeInLeft">
+				    <div class="hamburgerStripe first"></div>
+				    <div class="hamburgerStripe second"></div>
+				    <div class="hamburgerStripe third"></div>
+			    </div>
+                <div class="containerForItems">
+                </div>
+            </div>
 			<div  class="menuItem">
-			<a href = "#gallery">Gallery</a>
-			<a href = "#team">Our Team</a>
-			<a href = "#travel">Travel</a>
-			<a href = "#contact">Contact</a>
+				<a class="wow fadeInLeft" href="#gallery">Gallery</a>
+				<a class="wow fadeInLeft" data-wow-delay=".4s" href="#team">Our Team</a>
+				<a class="wow fadeInLeft" data-wow-delay=".8s" href="#travel">Travel</a>
+				<a class="wow fadeInLeft" data-wow-delay="1.2s" href="#service">Service</a>
+				<a class="wow fadeInLeft" data-wow-delay="1.6s" href="#contact">Contact</a>
 			</div>
 		<!--<div class="button">About</div>-->
 		<!--<div class="button">Shop</div>-->
@@ -34,7 +52,7 @@
 		</div>
 		<div class="wrap" id="gallery">
 			<div class="conttext">
-				<div class="galtext">Gallery</div>
+				<div class="galtext wow fadeInLeft">Gallery</div>
 				<!-- <p class="galp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt<br>
 					Ut enim ad minims veniam, quis nostrud exercitation ullamco</p> -->
 			</div>
@@ -87,24 +105,24 @@
 			</div>
 		<div class="team" id="team">
 			<div class="wraper">
-				<h1 class="centertext"">Our Team</h1>
+				<h1 class="centertext wow jackInTheBox">Our Team</h1>
 				<div class="items">
 				<div class="team-item">
-					<div class="face dog"></div>
+					<div class="face dog wow fadeInDown">Programmer</div>
 					<h2>Rock Dog</h2>
 					<p>Loren ipsum</p></div>
 				
 				<div class="team-item">
-					<div class="face cat"></div>
+					<div class="face cat wow fadeInDown" data-wow-delay=".3s">Designer</div>
 					<h2>Cool Cat</h2>
 					<p>Loren ipsum</p>
 				</div>
 				<div class="team-item">
-					<div class="face rabit"></div>
+					<div class="face rabit wow fadeInDown" data-wow-delay=".6s">Photografer</div>
 					<h2>Rabit Habit</h2>
 					<p>Loren ipsum</p></div>
 				<div class="team-item">
-					<div class="face pig"></div>
+					<div class="face pig wow fadeInDown" data-wow-delay=".9s">Manager</div>
 					<h2>Pink Pig</h2>
 					<p>Loren ipsum</p></div>
 				</div>	
@@ -112,21 +130,122 @@
 		</div>
 		<div class="travel wrap" id="travel">
 		<h1 class="centertext">Travel</h1>
-		<img src="ocean.jpg" align="left" style="margin-right: 20px;"><p>
+		<img class="wow fadeInLeft" data-wow-delay=".3s" src="ocean.jpg" align="left" style="margin-right: 20px;"><p class="wow zoomIn">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, ipsum fugit quos ipsam, praesentium voluptatem perferendis fugiat eius earum consectetur illo mollitia culpa quis! Atque, error ea inventore neque quasi, pariatur eaque ipsam, enim illo laboriosam earum delectus fuga sint doloribus excepturi placeat sequi odit consequuntur! Tempore ea, saepe iusto. Et cum sequi perferendis illo nihil ab suscipit consequuntur corporis mollitia. Praesentium veritatis magnam id quos. Alias quae iusto quo maxime odit fuga odio dolores accusamus beatae doloremque, enim cum reiciendis deserunt eligendi cupiditate delectus temporibus nihil reprehenderit, in distinctio magnam, doloribus tempore amet sed itaque! Quis impedit error voluptas obcaecati inventore nemo nesciunt repudiandae numquam quos perferendis! Ad facilis laborum culpa similique! Expedita accusamus modi, ipsum. Nulla laudantium eveniet tenetur suscipit eum, illum, quisquam. Laudantium consequuntur minima, aperiam impedit ducimus sequi autem maxime neque molestiae eveniet officiis perspiciatis ab debitis itaque doloremque ea illum vitae, labore tempora quaerat vel consectetur, iure quisquam quos. Dicta, delectus. Obcaecati ratione, tenetur asperiores ut sequi suscipit reprehenderit nemo distinctio eius accusantium nam maxime enim quibusdam earum, velit optio. Quos et nemo praesentium reiciendis, fugit vel, velit obcaecati neque quisquam sed, ab quae eaque. Molestiae nulla voluptas, distinctio illo corrupti numquam repudiandae et praesentium.
 		</p>
 	</div>
-	<div class="footer" id="contact">
-		<div class="footerButton">Call Us</div>
-		<div class="foottext">Phone: 38 067 *** ** **</div>
-		<div class="foottext">facebook: www.fb.********</div>		
-		<div class="foottext">YouTube: **********</div>
+	<div class="service" id="service">
+		<div class="wrap service-inner">
+			<div class="service-text">
+				<h1 class="wow fadeInLeft">Our Service</h1>
+				<p class="wow fadeInLeft" data-wow-delay=".5s">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid eveniet illo porro. Illo, pariatur, ut. Fugiat nisi quas sed? Eos, praesentium, sed! Adipisci at aut commodi consectetur cum deserunt dignissimos dolore earum enim error exercitationem impedit in ipsum laborum libero minima, minus nobis non obcaecati possimus rem, saepe suscipit temporibus?
+				</>
+			</div>
+			<div class="d-animation wow fadeIn">
+				<div class="container-for-3D-layers">
+					<div class="layers">
+						<div class="circkle-face-3d-lauers"></div>
+						<div class="text-for-3d-layers">
+							<div>Profile:</div>
+							<div class="user-name">
+								<i class="far fa-user"></i>
+								<div class="fake-input">Cat007</div>
+							</div>
+							<div class="user-password">
+								<i class="fas fa-lock"></i>
+								<div class="fake-input">*******</div>
+							</div>
+						</div>
+					</div>
+					<div class="layers">
+						<div class="circkle-face-3d-lauers"></div>
+						<div class="text-for-3d-layers">
+							<div>Profile:</div>
+							<div class="user-name">
+								<i class="far fa-user"></i>
+								<div class="fake-input">Cat007</div>
+							</div>
+							<div class="user-password">
+								<i class="fas fa-lock"></i>
+								<div class="fake-input">*******</div>
+							</div>
+						</div>
+					</div>
+					<div class="layers">
+						<div class="circkle-face-3d-lauers"></div>
+						<div class="text-for-3d-layers">
+							<div>Profile:</div>
+							<div class="user-name">
+								<i class="far fa-user"></i>
+								<div class="fake-input">Cat007</div>
+							</div>
+							<div class="user-password">
+								<i class="fas fa-lock"></i>
+								<div class="fake-input">*******</div>
+							</div>
+						</div>
+					</div>
+					<div class="layers">
+						<div class="circkle-face-3d-lauers"></div>
+						<div class="text-for-3d-layers">
+							<div>Profile:</div>
+							<div class="user-name">
+								<i class="far fa-user"></i>
+								<div class="fake-input">Cat007</div>
+							</div>
+							<div class="user-password">
+								<i class="fas fa-lock"></i>
+								<div class="fake-input">*******</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
+	<div class="footer" id="contact">
+		<div class="footerButton wow flipInX">Call Us</div>
+		<div class="foottext wow flipInX" data-wow-delay=".3s"><a href="#">Phone: 38 067 *** ** **</a></div>
+		<div class="foottext wow flipInX" data-wow-delay=".6s"><a href="#">facebook: www.fb.********</a></div>
+		<div class="foottext wow flipInX" data-wow-delay=".9s"><a href="#">YouTube: **********</a></div>
+	</div>
+	<script src="wow.min.js"></script>
 	<script type="text/javascript">
+        new WOW().init();
 		let b = document.querySelector(".footerButton");
 		b.onclick = function(){
 			alert("Этот сайт создал Максим Бубнов");
 		}
+		let menu = document.querySelector(".menu");
+		let containerForItems = document.querySelector(".containerForItems");
+        let humburgerBlock = document.querySelector(".humburgerBlock");
+        let second = document.querySelector(".second");
+        let first =  document.querySelector(".first");
+        let third =  document.querySelector(".third");
+        let i = 0;
+        humburgerBlock.onclick = function(){
+            if(i == 0){
+//humburgerBlock.classList.add("activeHumburgerBlock");
+                third.classList.add("third-active");
+                first.classList.add("first-active");
+                second.style.width = "0px";
+                containerForItems.classList.add("containerForItems-active");
+                containerForItems.innerHTML = '<a href = "#gallery">Gallery</a><a href = "#team">Our Team</a> <a href = "#travel">Travel</a><a href = "#service">Service</a><a href = "#contact">Contact</a>';
+                menu.classList.add("menu-active");
+                i++;
+            }
+            else {
+//humburgerBlock.classList.remove("activeHumburgerBlock");
+                third.classList.remove("third-active");
+                first.classList.remove("first-active");
+                containerForItems.innerHTML = "";
+                containerForItems.classList.remove("containerForItems-active");
+                menu.classList.remove("menu-active");
+                second.style.width = "80%";
+                i = 0;
+            }
+        }
 	</script>
 </body>
 </html>
